@@ -24,10 +24,7 @@ public class DemoSummary
 {
     public static void main(String[] args)
     {
-        String document = "水利部水资源司司长陈明忠9月29日在国务院新闻办举行的新闻发布会上透露，" +
-                "根据刚刚完成了水资源管理制度的考核，有部分省接近了红线的指标，" +
-                "有部分省超过红线的指标。对一些超过红线的地方，陈明忠表示，对一些取用水项目进行区域的限批，" +
-                "严格地进行水资源论证和取水许可的批准。";
+        String document = "说不想谈恋爱是假的，说不羡慕人家秀恩爱是假的，只是真没有一个认真的所以宁愿选择单身，也不想要随便谈感情，因为我不想当我遇见更好的人的时候已经把最好的自己用完。";
         List<String> sentenceList = HanLP.extractSummary(document, 3);
         System.out.println(sentenceList);
     }

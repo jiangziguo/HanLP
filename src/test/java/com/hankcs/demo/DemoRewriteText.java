@@ -19,7 +19,7 @@ public class DemoRewriteText
 {
     public static void main(String[] args)
     {
-        String text = "这个方法可以利用同义词词典将一段文本改写成意思相似的另一段文本，而且差不多符合语法";
+        String text = "前女友就说我像小孩一样，到现在都不知道为什么，我要是不喜欢你，我比你爸都成熟";
         System.out.println(CoreSynonymDictionary.rewrite(text));
     }
 }

@@ -42,6 +42,10 @@ public final class VectorsReader
             {
                 line = br.readLine().trim();
                 String[] params = line.split("\\s+");
+                if (params.length < 201){
+                    System.out.println(line);
+                    System.out.println(params.length);
+                }
                 vocab[i] = params[0];
                 matrix[i] = new float[size];
                 double len = 0;
