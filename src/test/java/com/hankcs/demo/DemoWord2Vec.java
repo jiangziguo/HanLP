@@ -103,7 +103,4 @@ public class DemoWord2Vec
         return new WordVectorModel(MODEL_FILE_NAME);
     }
 
-    private static void printCluster(){
-
-    }
 }
