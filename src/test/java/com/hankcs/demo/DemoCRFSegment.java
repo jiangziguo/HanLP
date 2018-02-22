@@ -42,14 +42,14 @@ public class DemoCRFSegment
         String sentence;
         List<String> tempData = new ArrayList<String>();
         StringBuilder stringBuilder = new StringBuilder();
-        List<String> stopDic = getDirty();
+//        List<String> stopDic = getDirty();
         while ((sentence = bufferedReader.readLine()) != null){
             List<Term> termList = segment.seg(sentence);
             for (Term term : termList){
-                String word = term.word;
-                if (stopDic.contains(word)){
-                    continue;
-                }
+//                String word = term.word;
+//                if (stopDic.contains(word)){
+//                    continue;
+//                }
                 stringBuilder.append(term.word);
                 stringBuilder.append(" ");
             }

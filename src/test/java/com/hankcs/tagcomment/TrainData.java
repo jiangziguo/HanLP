@@ -32,7 +32,7 @@ public class TrainData {
         BufferedReader bufferedReader;
         String str;
         try {
-            printWriter = new PrintWriter(new FileWriter(new File("E:\\场景\\traindata\\alldata.txt"), true));
+                printWriter = new PrintWriter(new FileWriter(new File("E:\\场景\\traindata\\alldata.txt"), true));
             bufferedReader = new BufferedReader(new FileReader(new File(fileName)));
             while ((str = bufferedReader.readLine()) != null){
                 printWriter.println(str);
