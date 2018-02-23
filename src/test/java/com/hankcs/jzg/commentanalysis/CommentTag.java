@@ -1,4 +1,4 @@
-package com.hankcs.tagcomment;
+package com.hankcs.jzg.commentanalysis;
 
 import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.seg.CRF.CRFSegment;

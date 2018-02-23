@@ -117,5 +117,11 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.janeluo</groupId>
+            <artifactId>ikanalyzer</artifactId>
+            <version>5.2.1</version>
+        </dependency>
     </dependencies>
 </project>

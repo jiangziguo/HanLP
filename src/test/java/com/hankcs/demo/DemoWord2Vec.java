@@ -25,8 +25,8 @@ import java.util.Map;
  */
 public class DemoWord2Vec
 {
-    private static final String TRAIN_FILE_NAME = "data/test/crf.txt";
-    private static final String MODEL_FILE_NAME = "data/test/word2vec_crf.txt";
+    private static final String TRAIN_FILE_NAME = "data/test/ikaNoDic.txt";
+    private static final String MODEL_FILE_NAME = "data/test/word2vec_ikaNoDic.txt";
 
     public static void main(String[] args) throws IOException
     {
