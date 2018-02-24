@@ -22,7 +22,7 @@ public class IKAnalysisSegment {
 
     public static void main(String[] args) {
         try {
-            iKASegment("E:\\场景\\traindata\\alldata.txt", "E:\\场景\\traindata\\allword.txt", false);
+            iKASegment("E:\\场景\\场景评论tag\\学校.txt", "E:\\场景\\场景评论分词\\学校.txt", false);
         } catch (Exception e) {
             e.printStackTrace();
         }

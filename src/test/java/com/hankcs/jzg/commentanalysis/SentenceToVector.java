@@ -68,7 +68,6 @@ public class SentenceToVector {
 
     public static void makeSentence2Vec(String path, Map<String, List<String>> vecMap) throws Exception{
         BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
-        Map<String, String[]> vecMap = new HashMap<String, String[]>();
         String temp;
         while ((temp = bufferedReader.readLine()) != null){
             String[] vector = new String[3000];
